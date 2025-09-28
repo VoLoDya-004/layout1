@@ -1,0 +1,98 @@
+.main-first-up {
+    display: flex;
+    min-height: 327px;
+    justify-content: space-between;
+    &__left {
+        min-width: 584px;
+        margin: 69px 40px 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        &-title {
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            height: 38px;
+            font-size: 24px;
+            color: #424242;
+        }
+        &-text {
+            color: #01996D;
+            font-weight: bold;
+            font-size: 50px;
+        }
+    }
+    &__right {
+        margin-top: 127px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #424242;
+    }
+}
+
+.main-first-down {
+    display: flex;
+    margin-bottom: 52px;
+    gap: 95px;
+    &__block {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    &__header {
+        &-num1 {
+            background-image: url(../../public/01.png);
+            background-repeat: no-repeat;
+            height: 140px;
+            position: relative;
+        }
+        &-num2 {
+            background-image: url(../../public/02.png);
+            background-repeat: no-repeat;
+            height: 140px;
+            position: relative;
+        }
+        &-num3 {
+            background-image: url(../../public/03.png);
+            background-repeat: no-repeat;
+            height: 140px;
+            position: relative;
+        }
+        &-str {
+            position: absolute;
+            color: black;
+            margin: 55px 0 0 55px;
+            font-weight: 600;
+            font-size: 36px; 
+            left: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+    &__str {
+        font-size: 20px;
+        font-weight: 500;
+        color: #424242;
+    }
+    &__img1 {
+        margin-top: 37px;
+        background-image: url(../../public/Rectangle30.png);
+        background-repeat: no-repeat;
+        height: 492px;
+        width: 100%;
+    }
+    &__img2 {
+        margin-top: 37px;
+        background-image: url(../../public/Rectangle31.png);
+        background-repeat: no-repeat;
+        height: 492px;
+        width: 100%;
+    }
+    &__img3 {
+        margin-top: 37px;
+        background-image: url(../../public/Group29.png);
+        background-repeat: no-repeat;
+        height: 492px;
+        width: 100%;
+    }
+}
